@@ -1,8 +1,7 @@
 import numpy as np
-from abc import ABC
 import random as rd
 
-class AbstractNeuron(ABC):
+class AbstractNeuron():
 
     def __init__(self, weights, bias):
         self.weights = weights
